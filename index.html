@@ -1,0 +1,12 @@
+<html>
+  <body>
+    <script type="module">
+      import qs from './index.js';
+      const obj = qs.parse('a=c');
+      console.log(obj);
+
+      const str = qs.stringify(obj)
+      console.log(str);
+    </script>
+  </body>
+</html>
